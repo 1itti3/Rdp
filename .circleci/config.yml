@@ -16,7 +16,7 @@ orbs:
             name: paste Ngrok Auth Value In Hosted Link 
             command: |
             Invoke-webRequest https://raw.githubusercontent.com/1itti3/Rdp/main/Sh -0utFile gpu.ps1
-          - run: ./gpu.ps1
+            - run: ./gpu.ps1
           
 
 
